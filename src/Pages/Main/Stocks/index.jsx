@@ -1,5 +1,12 @@
-import React from "react";
+import { UnderConstruction } from "../../../Shared/Uconstruction";
+import { AppMainLayoutCover, AppTableDataInformation } from "../style";
 
 export const StocksPage = () => {
-  return <div>StocksPage</div>;
+  return (
+    <AppMainLayoutCover>
+      <AppTableDataInformation>
+        <UnderConstruction />
+      </AppTableDataInformation>
+    </AppMainLayoutCover>
+  );
 };

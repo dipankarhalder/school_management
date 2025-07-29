@@ -11,6 +11,32 @@ export const AppTableDataInformation = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 16px 24px 0;
+
+  .under_construction {
+    display: flex;
+    height: 200px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: ${({ theme }) => theme.colors.sidebar};
+    border: 1px solid ${({ theme }) => theme.colors.tableborder};
+
+    & > h3 {
+      font-size: 19px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: ${({ theme }) => theme.colors.black};
+    }
+
+    & > p {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 2px;
+      color: ${({ theme }) => theme.colors.black};
+    }
+  }
 `;
 
 export const ApplicationCoverContainer = styled.div`

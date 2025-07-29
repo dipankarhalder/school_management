@@ -47,8 +47,11 @@ export const EventsPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
+        id: false,
+        organizer: false,
         duration: false,
         audience: false,
+        department: false,
       }));
     };
 
