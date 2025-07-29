@@ -43,7 +43,7 @@ export const AppDashboardCover = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 16px 24px 0;
+  padding: 24px 24px 0;
 
   .app_dashobard_heading {
     width: 100%;
@@ -174,6 +174,45 @@ export const AppDashboardCover = styled.div`
               color: #42870a;
             }
           }
+        }
+      }
+    }
+  }
+
+  .app_overview_graph {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 16px;
+
+    .app_revenue_overview {
+      width: 50%;
+      display: flex;
+      border-radius: 6px;
+      padding: 12px 13px;
+      flex-direction: column;
+      border: 1px solid ${({ theme }) => theme.colors.tableborder};
+
+      .app_rev_heading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        h3 {
+          font-size: 14px;
+          font-weight: 600;
+          color: ${({ theme }) => theme.colors.black};
+        }
+
+        select {
+          height: 26px;
+          padding: 0 7px 0 6px;
+          border-radius: 4px;
+          font-weight: 600;
+          font-size: 12px;
+          border: 1px solid ${({ theme }) => theme.colors.tableborder};
         }
       }
     }
