@@ -50,7 +50,10 @@ export const TeachersPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
+        id: false,
+        sec: false,
         dob: false,
+        gender: false,
         address: false,
       }));
     };

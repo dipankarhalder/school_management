@@ -46,6 +46,9 @@ export const LocationsPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
+        id: false,
+        code: false,
+        principal: false,
         established: false,
       }));
     };

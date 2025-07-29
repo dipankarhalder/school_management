@@ -48,8 +48,10 @@ export const StuffPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
+        id: false,
         gender: false,
         blood_group: false,
+        address: false,
       }));
     };
 

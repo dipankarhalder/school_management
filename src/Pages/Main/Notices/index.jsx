@@ -47,6 +47,9 @@ export const NoticesPage = () => {
     const handleResize = () => {
       setVisibleColumns((prev) => ({
         ...prev,
+        id: false,
+        role: false,
+        author: false,
         description: false,
       }));
     };
@@ -60,15 +63,15 @@ export const NoticesPage = () => {
     <AppMainLayoutCover>
       <AppTableDataInformation>
         <TableInfo
-          pageTitle={"Manage Noticeboard"}
+          pageTitle={"Manage Notice Board"}
           pagePath={pagePaths}
           data={noticeTableData}
           addTextItem={"Add New Notice"}
           handleAddItems={handleAddItems}
-          sortableColumns={["id", "name", "code", "gender"]}
-          viewBtn={"name"}
+          sortableColumns={["title", "priority"]}
+          viewBtn={"title"}
           enableStatus={true}
-          filterableColumns={["priority", "author"]}
+          filterableColumns={["priority"]}
           visibleColumns={visibleColumns}
           onToggleColumn={(col) =>
             setVisibleColumns((prev) => ({

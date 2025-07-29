@@ -46,12 +46,12 @@ export const sidebarLink = [
     id: 2,
     title: "Manage Organization",
     children: [
-      {
-        id: 1,
-        title: "Administration",
-        path: paths.ADMIN,
-        icon: Admin,
-      },
+      // {
+      //   id: 1,
+      //   title: "Administration",
+      //   path: paths.ADMIN,
+      //   icon: Admin,
+      // },
       {
         id: 2,
         title: "Authority & Committee",
@@ -81,7 +81,7 @@ export const sidebarLink = [
       { id: 7, title: "Stock Store", path: paths.STOCK, icon: Stocks },
       { id: 8, title: "Notice Board", path: paths.NOTICE, icon: Notice },
       { id: 9, title: "Invoice", path: paths.INVOICE, icon: Taxes },
-      { id: 10, title: "Career", path: paths.CAREER, icon: Doctor },
+      { id: 10, title: "Placements", path: paths.CAREER, icon: Doctor },
     ],
   },
   {

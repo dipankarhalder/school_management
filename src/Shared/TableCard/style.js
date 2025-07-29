@@ -745,7 +745,7 @@ export const TableViewCard = styled.div`
       margin-top: 12px;
 
       & > li {
-        width: 19.0192%;
+        width: 23.83%;
         overflow: hidden;
         position: relative;
         border-radius: 8px;
