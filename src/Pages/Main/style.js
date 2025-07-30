@@ -243,4 +243,59 @@ export const AppDashboardCover = styled.div`
       }
     }
   }
+
+  .app_payroll_graph {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    gap: 16px;
+
+    .app_dept_graph {
+      width: 50%;
+      display: flex;
+      border-radius: 6px;
+      padding: 12px 13px;
+      flex-direction: column;
+      border: 1px solid ${({ theme }) => theme.colors.tableborder};
+
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        color: ${({ theme }) => theme.colors.black};
+      }
+    }
+
+    .app_dept_graph_full {
+      width: 100%;
+      display: flex;
+      border-radius: 6px;
+      padding: 12px 13px;
+      flex-direction: column;
+      border: 1px solid ${({ theme }) => theme.colors.tableborder};
+
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        color: ${({ theme }) => theme.colors.black};
+      }
+    }
+
+    .app_doug_graph {
+      width: 50%;
+      display: flex;
+      border-radius: 6px;
+      padding: 12px 13px;
+      flex-direction: column;
+      border: 1px solid ${({ theme }) => theme.colors.tableborder};
+
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        color: ${({ theme }) => theme.colors.black};
+      }
+    }
+  }
 `;
