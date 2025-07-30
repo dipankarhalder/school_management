@@ -1,9 +1,12 @@
-import { AppMainLayoutCover } from "../style";
+import { UnderConstruction } from "../../../Shared/Uconstruction";
+import { AppMainLayoutCover, AppTableDataInformation } from "../style";
 
 export const AdmissionPage = () => {
   return (
     <AppMainLayoutCover>
-      <p>AdmissionPage</p>
+      <AppTableDataInformation>
+        <UnderConstruction />
+      </AppTableDataInformation>
     </AppMainLayoutCover>
   );
 };
