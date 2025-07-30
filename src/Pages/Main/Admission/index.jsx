@@ -1,11 +1,11 @@
-import { UnderConstruction } from "../../../Shared/Uconstruction";
+import { NotAuth } from "../../../Shared/NotAuth";
 import { AppMainLayoutCover, AppTableDataInformation } from "../style";
 
 export const AdmissionPage = () => {
   return (
     <AppMainLayoutCover>
       <AppTableDataInformation>
-        <UnderConstruction />
+        <NotAuth />
       </AppTableDataInformation>
     </AppMainLayoutCover>
   );

@@ -40,7 +40,7 @@ export const paths = {
   EVENTS: "events",
   COURSES: "courses",
   LOCATIONS: "locations",
-  ADMIN: "administration",
+  ADMIN: "payroll",
   AUTH: "authority-and-committee",
   HOSTEL: "hostel",
   LABORATORY: "laboratory",
