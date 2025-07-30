@@ -121,6 +121,12 @@ export const SigninPage = () => {
           </AppLinkCover>
         </AppFormSignin>
       </AppInsideSignin>
+      <div className="app_collaborate">
+        <p>In Collaboration with:</p>
+        <span>
+          <img src="/c12.png" alt="Collaboration" />
+        </span>
+      </div>
     </AppSignin>
   );
 };
