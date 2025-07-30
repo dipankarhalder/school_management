@@ -31,6 +31,8 @@ export const AppRightSideBar = styled.div`
       & > span {
         width: 40px;
         height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
         margin-right: 10px;
 
         & > img {
