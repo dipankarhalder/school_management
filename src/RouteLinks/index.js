@@ -18,7 +18,7 @@ import {
   Result,
   Scholar,
   Assignm,
-  Admin,
+  Rupees,
   Event,
   Edit,
   Course,
@@ -70,6 +70,12 @@ export const sidebarLink = [
       { id: 1, title: "Teachers", path: paths.TEACHER, icon: Teach },
       { id: 2, title: "Stuffs", path: paths.STUFF, icon: Staff },
       { id: 3, title: "Human Resources", path: paths.HUMAN, icon: Patients },
+      {
+        id: 11,
+        title: "Payroll",
+        path: paths.ADMIN,
+        icon: Rupees,
+      },
       {
         id: 4,
         title: "Study Materials",

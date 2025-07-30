@@ -16,11 +16,11 @@ export const RightSideBar = () => {
       <div className="app_profile_logged_user">
         <div className="app_avt_wrapper">
           <span>
-            <img src="/avatar.png" alt="profile" />
+            <img src="/avt.jpg" alt="profile" />
           </span>
           <div className="app_avatar_info">
-            <h6>Anuradha Paul</h6>
-            <span>Super Admin</span>
+            <h6>Himadri C</h6>
+            <span>Admin</span>
           </div>
         </div>
         <div className="app_logout">
