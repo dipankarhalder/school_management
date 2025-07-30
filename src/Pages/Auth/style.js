@@ -7,6 +7,26 @@ export const AppSignin = styled.div`
   height: 100vh;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+  .app_collaborate {
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    & > p {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    & > span {
+      width: 60px;
+    }
+  }
 `;
 
 export const AppInsideSignin = styled.div`
