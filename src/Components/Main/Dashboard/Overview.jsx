@@ -30,7 +30,7 @@ export const Overview = () => {
             <p>Total Teaching Staff</p>
             <div className="app_icontext">
               <h6>78</h6>
-              <span> Inactive: 23</span>
+              <span>Inactive: 23</span>
             </div>
           </div>
         </li>
@@ -40,7 +40,7 @@ export const Overview = () => {
             <p>Non-Teaching Staff</p>
             <div className="app_icontext">
               <h6>1325</h6>
-              <span> Inactive: 421</span>
+              <span>Inactive: 421</span>
             </div>
           </div>
         </li>
@@ -50,7 +50,7 @@ export const Overview = () => {
             <p>Total Student</p>
             <div className="app_icontext">
               <h6>52,620</h6>
-              <span> Inactive: 2349</span>
+              <span>Inactive: 2349</span>
             </div>
           </div>
         </li>
